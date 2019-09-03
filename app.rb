@@ -10,6 +10,10 @@ class App < Sinatra::Base
       "My hometown is "
     end
 
+    get '/favorite-song' do
+      "My hometown is "
+    end
+
   end
 
   # medicines_controller.rb
