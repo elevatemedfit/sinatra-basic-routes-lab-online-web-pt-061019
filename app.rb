@@ -6,6 +6,10 @@ class App < Sinatra::Base
       "My name is "
     end
 
+    get '/hometown' do
+      "My name is "
+    end
+
   end
 
   # medicines_controller.rb
